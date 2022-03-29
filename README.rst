@@ -6,14 +6,6 @@ python-escpos - Python library to manipulate ESC/POS Printers
     :target: https://travis-ci.org/python-escpos/python-escpos
     :alt: Continous Integration
 
-.. image:: https://www.quantifiedcode.com/api/v1/project/95748b89a3974700800b85e4ed3d32c4/badge.svg
-    :target: https://www.quantifiedcode.com/app/project/95748b89a3974700800b85e4ed3d32c4
-    :alt: Code issues
-
-.. image:: https://landscape.io/github/python-escpos/python-escpos/master/landscape.svg?style=flat
-    :target: https://landscape.io/github/python-escpos/python-escpos/master
-    :alt: Code Health
-
 .. image:: https://codecov.io/github/python-escpos/python-escpos/coverage.svg?branch=master
     :target: https://codecov.io/github/python-escpos/python-escpos?branch=master
     :alt: Code Coverage
@@ -21,6 +13,11 @@ python-escpos - Python library to manipulate ESC/POS Printers
 .. image:: https://readthedocs.org/projects/python-escpos/badge/?version=stable
     :target: http://python-escpos.readthedocs.io/en/latest/?badge=stable
     :alt: Documentation Status
+
+<❗>NOTICE (RCLSTN)
+-----------
+- This repository has been modified to support TWO of the same printer, further modifications could support more.
+- The third argument in printer.Usb() is the printer identifier, currently this should either be 0 or 1
 
 
 Description
